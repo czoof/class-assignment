@@ -11,6 +11,8 @@ techflow-website/
 ├── script.js           # JavaScript functionality
 ├── README.md          # Project documentation
 └── .github/
+
+
     └── workflows/
         └── deploy.yml  # GitHub Actions deployment workflow
 ```
