@@ -1,10 +1,10 @@
 What triggers this workflow to run?- A push to the main branch is what triggers the workflow to run
 
 What are the four main steps this workflow performs? (List each step name)
--Retrieving the repository code
--Setting up the environment 
--Checks the HTML for errors by running tests, then validates it
--Publishes the website
+1:Retrieving the repository code
+2:Setting up the environment 
+3:Checks the HTML for errors by running tests, then validates it
+4:Publishes the website
 
 What does the "Checkout code" step do and why is it necessary?- The checout code pulls the repository code into the workflow. This is what the steps from the above question have so that they can access and work with the files. If this didnt happen,
 the workflow wouldn't have any code to build and run.
